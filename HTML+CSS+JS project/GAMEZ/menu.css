@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-family: "Baloo Bhai 2", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+}
+nav #logo {
+  padding-left: 100px;
+  text-decoration: none;
+  color: antiquewhite;
+  /* width: 11vw; */
+  height: 8vh;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgba(252, 251, 250, 0.678);
+  margin: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.gamez {
+  width: 100%;
+  height: 100%;
+}
+.dice {
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.dice h1 {
+  font-size: 40px;
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+  margin: 10px;
+}
+.dice p {
+  margin: 10px;
+  color: white;
+  width: 50vw;
+  word-break: break-all;
+  word-spacing: 3px;
+}
+.d {
+    display: flex;
+    align-items: center;
+}
+
+.d img {
+    margin: 10px;
+    width: 400px;
+    aspect-ratio: 16/9;
+    border-radius: 5px;
+    border: 3px solid crimson;
+}
+.d button {
+    margin: 10px;
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.637);
+  border-radius: 2px;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: 0.1s;
+}
+.d button:hover {
+  border-color: red;
+  cursor: pointer;
+}
+.guess {
+  display: flex;
+  flex-direction: column;
+  /* align-items: end ; */
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+}
+.guess h1 {
+  font-size: 40px;
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+  margin: 10px;
+  margin-right: 32vw;
+}
+.guess p {
+    margin-right: 32vw;
+    margin: 10px;
+    color: white;
+    width: 50vw;
+    word-break: break-all;
+    word-spacing: 3px;
+}
+.g {
+    display: flex;
+    align-items: center;
+    margin-right: 20vw;
+}
+a{
+    text-decoration: none;
+    color: rgba(222, 12, 12, 0.668);
+}
+
+.g img {
+  margin: 10px;
+  width: 400px;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+  border: 3px solid crimson;
+}
+.g button  {
+    margin: 10px;
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.637);
+  border-radius: 2px;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: 0.1s;
+}
+.g button:hover {
+  border-color: red;
+  cursor: pointer;
+}
