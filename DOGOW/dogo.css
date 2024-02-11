@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  /* overflow: hidden; */
+}
+body {
+  background-image: url(dgs.jpg);
+  background-position:center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+main h1 {
+  color: rgb(248, 248, 248);
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 10px;
+   animation: heading 2.5s ease-in-out 1 alternate-reverse; */
+  /* transition: .9s; */
+}
+@keyframes heading {
+  100%{
+    letter-spacing: 30px;
+    color: #696161;
+  }
+  
+}
+main h1 span {
+  color: #00000098;
+}
+main p {
+  color: antiquewhite;
+  font-size: 20px;
+  font-family:sans-serif;
+  text-align: center;
+  width: 70vw;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+  text-transform: lowercase;
+}
+main p span{
+  color: rgb(153, 79, 90);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main h3 {
+  color: rgb(254, 254, 255);
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+a {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+.btn2 #explore {
+  padding: 10px 40px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  outline: none;
+  text-transform: capitalize;
+  transition:all .3s ease-in-out;
+}
+.btn2 #explore:hover{
+  background-color: red;
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+#textSpan {
+  text-transform: uppercase;
+  color: rgb(74, 158, 91);
+  animation: changeTextAndColor 2s ease-in-out infinite;
+}
+
+

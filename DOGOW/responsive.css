@@ -1,0 +1,39 @@
+@media only screen and  (max-width: 800px) {
+    body{
+        background-image: url(husky.avif);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    main{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+   main h1{
+    font-size: 20px;
+    animation: none;
+    transition: none;
+    margin-top:5vh;
+   }
+   main h1 span {
+    color: red;
+   }
+
+    main p{
+        /* display: none; */
+        font-size: 15px;
+        width: 90vw;
+    }
+    main h3{
+        font-size: 15px;
+    }
+    .btn2{
+        display: flex;
+        justify-content: space-around;
+
+    }
+}
